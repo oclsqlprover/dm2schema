@@ -3,9 +3,9 @@
 **Paper**: "Proving correctness for SQL implementations of OCL constraints"
 
 ## dm2schema
-The submodule is for mapping data models to SQL schemata.
-Given a data model (in JSON format), **dm2schema** generates a Java object representation of this datamodel.
+This project contains a module for mapping data models to SQL schemata according to the definition provided in the manuscript.
+**dm2schema** can also be used as a Java parser, that is, given a data model (in JSON format), it generates a Java object representation of this datamodel.
 
-**Note**: This repository stores the source code of the text-to-model transformation. This code will be exported to a JAR file and included as a submodule in the main project(s). Although it can operate as a standalone software, its functionality will not be discussed in detail here since it is out of the manuscript scope.
+**Note**: For the usage of this paper, this implementation will be exported to a JAR file and included as a submodule. Although it can operate as a standalone software, its functionality will not be discussed in detail here since it is out of the manuscript scope. Interested readers can find the exported JAR file [here](https://github.com/models22-submission54/dm2schema/releases/tag/v1.0).
 
 
